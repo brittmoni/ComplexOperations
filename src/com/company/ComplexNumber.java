@@ -17,6 +17,11 @@ public class ComplexNumber {
         return imaginary;
     }
 
+    public void add(double real, double imaginary) {
+        real += real;
+        imaginary += imaginary;
+    }
+
     public void add(ComplexNumber number) {
 
     }
@@ -26,6 +31,6 @@ public class ComplexNumber {
     }
 
     public void subtract(ComplexNumber number) {
-        
+
     }
 }
